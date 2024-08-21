@@ -12,9 +12,11 @@ while True:
         if len(szo) != 6:
             print("A karakterek száma téves! ")
             break
-        if szo[0] != szolanc[-1][-1]:   # Az első betű nem egyezik az előző szó utolsó betűjével
+        if szo[0] != szolanc[-1][-1]:  # Az első betű nem egyezik az előző szó utolsó betűjével
             print("Nem illeszkedett!")
             break
 
-    szolanc.append(szo) # Ha megfelel, hozzáadjuk a szavak listájához
+    szolanc.append(szo)  # Ha megfelel, hozzáadjuk a szavak listájához
     szamlalo += 1
+
+print(f"\nHelyes lépések száma: {szamlalo}")
