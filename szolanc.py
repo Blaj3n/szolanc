@@ -20,3 +20,10 @@ while True:
     szamlalo += 1
 
 print(f"\nHelyes lépések száma: {szamlalo}")
+
+if 0 <= szamlalo <= 2:
+    print("Szint: kezdő")
+elif 3 <= szamlalo <= 5:
+    print("Szint: közepes")
+elif 6 <= szamlalo:
+    print("Szint: haladó")
