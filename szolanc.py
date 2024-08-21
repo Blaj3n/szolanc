@@ -12,7 +12,7 @@ while True:
         if len(szo) != 6:
             print("A karakterek száma téves! ")
             break
-        if szo[0] != szolanc[-1][-1]:  # Az első betű nem egyezik az előző szó utolsó betűjével
+        elif szo[0] != szolanc[-1][-1]:  # Az első betű nem egyezik az előző szó utolsó betűjével
             print("Nem illeszkedett!")
             break
 
